@@ -20,7 +20,7 @@ function draw() {
   if (!ctx || !canvasRef.value) return
   const canvas = canvasRef.value
 
-  ctx.fillStyle = 'var(--bg-canvas)'
+  ctx.fillStyle = '#0f3460'
   ctx.fillRect(0, 0, canvas.width, canvas.height)
 
   // 网格线
